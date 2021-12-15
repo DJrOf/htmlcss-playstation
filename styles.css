@@ -1,12 +1,14 @@
 
+/* Header */
 
-
-
-    .container-fluid {
+    #jumbo1 {
         height: 65vh;
         background-image: url(img/jumbo-bg.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        
     }
     
     .container {
@@ -27,13 +29,20 @@
         background-color: orange;
     }
 
+/* Navbar */
+
+    nav {
+        background-color: white;
+        color: black;
+    }
+
     .nav-options {
         display: flex;
-        color: white;
+        color: black;
     }
     
     .nav-link {
-        color: white;
+        color: black;
     }
     
     .logo {
@@ -53,13 +62,120 @@
 
     .containerb {
         color: white;
-        margin-top: 15vh;
+        margin-top: 20vh;
         width: calc((100vh / 12) * 6);
         
     }
 
-    .returnal-logo {
+    .logojumbo {
         width: 40%;
     }
+
+/* Main */
+
+.row {
+    max-width: inherit;
+}
+
+.ret-list-img {
+    width: calc((100vh / 12) * 3);
+    border-radius: 20px;
+}
+
+.seca {
+    margin-top: 5vh;
+    max-width: 100%;
+}
+
+.bann {
+        margin-top: 10vh;     
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+}
+    
+.card1 {
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+}
+    
+.img1 {
+    width: 60vh;
+    margin-left: 10vh;
+}
+    
+.row {
+    overflow-x: hidden;
+}
+
+.texta {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.textb {
+        width: 50vh;  
+        left: 0;
+        margin-right: 20vh;
+
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
+
+#ps5row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#pic {
+    text-align: center;
+}
+
+#descr {
+    
+}
+
+#secb {
+    background-color: black;
+    height: 150vh;
+}
+
+#jumbo2 {
+    height: 75vh;
+    
+        background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        background-position: center;
+        position: relative;
+        
+}
+
+.containerc {
+    color: white;
+    width: calc((100vh / 12) * 6);
+    display: block;
+    bottom: 0px;
+    padding-top: 20vh;
+    margin: 0;
+}
+
+/*Footer*/
+
+.nuoveuscite {
+    
+    color: white;
+    
+}
+    
+    
 
  
