@@ -168,7 +168,6 @@
     margin: 0;
 }
 
-/*Footer*/
 
 .nuoveuscite {
     
@@ -228,7 +227,7 @@
 #avengers {
     height: 45vh;
     background-color: #0E1B3E;
-    margin-top: 10vh;     
+       
     width: auto;
     display: flex;
     justify-content: center;
@@ -245,12 +244,64 @@
 }
 
 .textav {
-    width: 50vh;  
+    width:50vh;  
     margin-right: 20vh;
     color: white;
 }
 
 .logopsn {
     width: 100%;
+    margin-bottom: 3vh;
+}
+
+#nobg3 {
+    color: black;
+    margin-top: 10vh;
+    
+    text-align: center;
+   
+}
+
+#list3 {
+    display: flex;
+    
+}
+
+.card {
+    border: 0px;
+}
+
+#social {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 10vh;
+}
+
+.ret-list-img1 {
+    width: calc((100vh / 12) * 3);
+    
+}
+
+footer {
+    height: 65vh;
+    background-color: #0028A4;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    list-style: none;
+}
+
+#playlogo {
+    width: 20vh;
+    
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 10vh;
+}
+
+#psli {
     margin-bottom: 3vh;
 }
