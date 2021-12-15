@@ -194,4 +194,63 @@
 .card {
     border: 0px;
 }
+
+/*banner1*/
+
+#psplus {
+    height: 45vh;
+    background-color: gray;
+    margin-top: 10vh;     
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: center;
+}
  
+.logopsp {
+    width: 100%;
+}
+
+.imgpsp {
+    height: 45vh;
+    margin-left: 10vh;
+}
+
+.textpsp {
+    width: 50vh;  
+    margin-right: 20vh;
+}
+
+/*Banner2*/
+
+#avengers {
+    height: 45vh;
+    background-color: #0E1B3E;
+    margin-top: 10vh;     
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+ 
+
+
+.imgav {
+    height: 45vh;
+    margin-left: 10vh;
+}
+
+.textav {
+    width: 50vh;  
+    margin-right: 20vh;
+    color: white;
+}
+
+.logopsn {
+    width: 100%;
+    margin-bottom: 3vh;
+}
