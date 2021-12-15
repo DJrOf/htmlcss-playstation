@@ -1,0 +1,65 @@
+
+
+
+
+    .container-fluid {
+        height: 65vh;
+        background-image: url(img/jumbo-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        display: flex;
+        margin-top: 1%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .btn.btn-light {
+        color: blue;
+        justify-self: flex-end;
+        border-radius: 100px;
+    }
+    
+    .btn.btn-buy {
+        border-radius: 100px;
+        background-color: orange;
+    }
+
+    .nav-options {
+        display: flex;
+        color: white;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .logo {
+        justify-self: flex-start;
+        color: white;
+    }
+    
+    .logoimg {
+        width: 5vh;
+        height: 5vh;
+        margin: 0 auto;
+    }
+    
+    .access {
+        display: flex;
+    }
+
+    .containerb {
+        color: white;
+        margin-top: 15vh;
+        width: calc((100vh / 12) * 6);
+        
+    }
+
+    .returnal-logo {
+        width: 40%;
+    }
+
+ 
