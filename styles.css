@@ -7,8 +7,22 @@
 
 /* Navbar */
 
+    #bgblacknav {
+        background-color: black;
+        display: flex;
+        justify-content: right;
+        padding: 1%;
+    }
+
+    #logo-uphead {
+        width: 5%;
+        height: 5%; 
+    }
+
     nav {     
         color: black;
+        display: flex;
+        justify-content: space-between;
     }
 
     .nav-options {
@@ -266,8 +280,7 @@
         height: 550px;
         background-color: #0028A4;
         color: white;
-        justify-content: space-between;
-        
+        justify-content: space-around;
     }
 
     #playlogo {
