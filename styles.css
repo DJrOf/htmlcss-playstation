@@ -84,8 +84,8 @@
         padding-top: 5%;
     }
 
-    .ret-list-img {
-        width: calc((100vh / 12) * 3);
+    .img-row {
+        width: calc((100vW / 12) * 2 - 20px);
         border-radius: 20px;
     }
 
@@ -152,7 +152,7 @@
 
     #nuoveuscite {
         color: white;  
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     #bgblack {
@@ -274,7 +274,7 @@
     padding-top: 5%;
     }
 
-    .ret-list-img1 {
+    .img-row1 {
         width: calc((100vh / 12) * 4);  
     }
 
