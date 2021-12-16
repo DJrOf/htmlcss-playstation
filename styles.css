@@ -291,6 +291,15 @@
         width: 10%;
     }
 
+    li {
+        padding-bottom: 5%;
+    }
+
+   #world {
+       height: 5%;
+       width: 5%;
+   }
+
     ul {
         list-style: none;
         padding-top: 20%;
