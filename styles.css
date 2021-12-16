@@ -36,13 +36,13 @@ nav {
 }
 
 
-
 /* Main */
+
 
 /* jumbo1 */
 
 #jumbo1 {
-    height: 400px;
+    height: 500px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,6 +62,7 @@ nav {
     border-radius: 20px;
 }
 
+
 /* Returnal/Ratchet row */
 
     #ret-rat {
@@ -73,12 +74,14 @@ nav {
         border-radius: 20px;
     }
 
+
    /* No Limits Section */
 
 #no-limits {
     text-align: center;
     padding-top: 5%;
 }
+
 
 /* PS5 Console Section */
 
@@ -95,6 +98,7 @@ nav {
     .btn-primary {
         border-radius: 20px;
     }
+
     
     /* PS5 Accessories Section */
 
@@ -110,10 +114,11 @@ nav {
     #pic {
         text-align: center;
     }
+
    
 /* Jumbo2 */
 
-    #jiumbo2 {
+    #jumbotronitt {
         height: 500px;
         background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
         background-size: cover;
@@ -123,40 +128,46 @@ nav {
         padding-top: 7%;
     }
 
+
     /* Nuove Uscite */
 
+    #nuoveuscite {
+        color: white;  
+        padding-top: 5%;
+    }
 
-    .nuoveuscite {
-        
-        color: white;
-        
+    #bgblack {
+        background-color: black;
     }
         
-        
+    #tcrow2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+/* Sezione PS4 */
+
     #nobg2 {
         color: black;
-        margin-top: 10vh;
-        
+        padding-top: 5%;
+        padding-bottom: 5%;
         text-align: center;
-    
     }
 
     #list {
-        display: flex;
-        justify-content: space-between;
-        
+        justify-content: space-between; 
     }
 
-    .card {
+   #card {
         border: 0px;
     }
 
-/*banner1*/
+
+/* Jumbotron PS Plus */
 
 #psplus {
-    height: 45vh;
-    background-color: gray;
-    margin-top: 10vh;     
+    height: 400px;
+    background-color: gray;     
     width: auto;
     display: flex;
     justify-content: center;
@@ -165,19 +176,36 @@ nav {
     align-items: center;
 }
  
-.logopsp {
-    width: 100%;
-}
-
 .imgpsp {
-    height: 45vh;
-    margin-left: 10vh;
+    height: 400px;
+    padding-left: 5%;
 }
 
 .textpsp {
     width: 50vh;  
     margin-right: 20vh;
 }
+
+.logopsp {
+    width: 100%;
+}
+
+/* Sezione Promo Store */
+
+/* 
+#nobg2 {
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+} 
+*/
+
+/*
+ #list {
+        justify-content: space-between; 
+    }
+*/
 
 /*Banner2*/
 
