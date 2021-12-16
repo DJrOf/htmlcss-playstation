@@ -1,198 +1,155 @@
 
 /* Header */
 
-    #jumbo1 {
-        height: 65vh;
-        background-image: url(img/jumbo-bg.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0 auto;
+#header {
+    background-color: white;
+}
+
+nav {
         
-    }
-    
-    .container {
-        display: flex;
-        margin-top: 1%;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    
-    .btn.btn-light {
-        color: blue;
-        justify-self: flex-end;
-        border-radius: 100px;
-    }
-    
-    .btn.btn-buy {
-        border-radius: 100px;
-        background-color: orange;
-    }
+    color: black;
+}
 
-/* Navbar */
+.nav-options {
+    display: flex;
+    color: black;
+}
 
-    nav {
-        background-color: white;
-        color: black;
-    }
+.logoimg {
+    width: 5vh;
+    height: 5vh;
+    margin: 0 auto;
+}
 
-    .nav-options {
-        display: flex;
-        color: black;
-    }
-    
-    .nav-link {
-        color: black;
-    }
-    
-    .logo {
-        justify-self: flex-start;
-        color: white;
-    }
-    
-    .logoimg {
-        width: 5vh;
-        height: 5vh;
-        margin: 0 auto;
-    }
-    
-    .access {
-        display: flex;
-    }
+.access {
+    display: flex;
+}
 
-    .container-nobg {
-        color: black;
-        margin-top: 20vh;
-        width: calc((100vh / 12) * 6);
-        
-    }
+.nav-link {
+    color: black;
+}
+    
+.btn.btn-light {
+    color: blue;
+    justify-self: flex-end;
+    border-radius: 100px;
+}
 
-    .logojumbo {
-        width: 40%;
-    }
+
 
 /* Main */
 
-.row {
-    max-width: inherit;
+/* jumbo1 */
+
+#jumbo1 {
+    height: 400px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10%;
+    
+    color: white;
 }
 
-.ret-list-img {
-    width: calc((100vh / 12) * 3);
+.logojumbo {
+    width: 20%;
+}
+
+.btn.btn-buy {
+    background-color: orange;
+    color: white;
     border-radius: 20px;
 }
 
-.seca {
-    margin-top: 5vh;
-    max-width: 100%;
-}
+/* Returnal/Ratchet row */
 
-.bann {
-        margin-top: 10vh;     
-        width: 100vh;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-}
-    
-.card1 {
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: row-reverse;
-}
-    
-.img1 {
-    width: 60vh;
-    margin-left: 10vh;
-}
-    
-.row {
-    overflow-x: hidden;
-}
+    #ret-rat {
+        padding-top: 5%;
+    }
 
-.texta {
+    .ret-list-img {
+        width: calc((100vh / 12) * 3);
+        border-radius: 20px;
+    }
+
+   /* No Limits Section */
+
+#no-limits {
     text-align: center;
-    margin-top: 10vh;
+    padding-top: 5%;
 }
 
-.textb {
-        width: 50vh;  
-        left: 0;
-        margin-right: 20vh;
+/* PS5 Console Section */
 
-}
-
-.btn-primary {
-    border-radius: 20px;
-}
-
-#ps5row {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-#pic {
-    text-align: center;
-}
-
-#descr {
+    #ps5sec {
+        align-items: baseline;
+        padding-left: 3%;
+    }
     
-}
+    .img1 {
+        width: 60vh;
+        
+    }
 
-#secb {
-    background-color: black;
-    height: 150vh;
-}
-
-#jumbo2 {
-    height: 75vh;
+    .btn-primary {
+        border-radius: 20px;
+    }
     
+    /* PS5 Accessories Section */
+
+    #ps5row {
+        justify-content: space-between;
+    }
+
+    /*     .ret-list-img {
+        width: calc((100vh / 12) * 3);
+        border-radius: 20px;
+    } */
+
+    #pic {
+        text-align: center;
+    }
+   
+/* Jumbo2 */
+
+    #jiumbo2 {
+        height: 500px;
         background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0 auto;
         background-position: center;
-        position: relative;
+        color: white;
+        padding-top: 7%;
+    }
+
+    /* Nuove Uscite */
+
+
+    .nuoveuscite {
         
-}
+        color: white;
+        
+    }
+        
+        
+    #nobg2 {
+        color: black;
+        margin-top: 10vh;
+        
+        text-align: center;
+    
+    }
 
-.containerc {
-    color: white;
-    width: calc((100vh / 12) * 6);
-    display: block;
-    bottom: 0px;
-    padding-top: 20vh;
-    margin: 0;
-}
+    #list {
+        display: flex;
+        justify-content: space-between;
+        
+    }
 
-
-.nuoveuscite {
-    
-    color: white;
-    
-}
-    
-    
-#nobg2 {
-    color: black;
-    margin-top: 10vh;
-    
-    text-align: center;
-   
-}
-
-#list {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.card {
-    border: 0px;
-}
+    .card {
+        border: 0px;
+    }
 
 /*banner1*/
 
