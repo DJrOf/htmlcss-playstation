@@ -1,41 +1,40 @@
 
 /* Header */
 
-#header {
-    background-color: white;
-}
+    #header {
+        background-color: white;
+    }
 
 /* Navbar */
 
-nav {
+    nav {     
+        color: black;
+    }
+
+    .nav-options {
+        display: flex;
+        color: black;
+    }
+
+    .logoimg {
+        width: 5vh;
+        height: 5vh;
+        margin: 0 auto;
+    }
+
+    .access {
+        display: flex;
+    }
+
+    .nav-link {
+        color: black;
+    }
         
-    color: black;
-}
-
-.nav-options {
-    display: flex;
-    color: black;
-}
-
-.logoimg {
-    width: 5vh;
-    height: 5vh;
-    margin: 0 auto;
-}
-
-.access {
-    display: flex;
-}
-
-.nav-link {
-    color: black;
-}
-    
-.btn.btn-light {
-    color: blue;
-    justify-self: flex-end;
-    border-radius: 100px;
-}
+    .btn.btn-light {
+        color: blue;
+        justify-self: flex-end;
+        border-radius: 100px;
+    }
 
 
 /* Main */
@@ -43,26 +42,26 @@ nav {
 
 /* jumbo1 */
 
-#jumbo1 {
-    height: 500px;
-    background-image: url(img/jumbo-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 10%;
-    
-    color: white;
-}
+    #jumbo1 {
+        height: 500px;
+        background-image: url(img/jumbo-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 10%;
+        
+        color: white;
+    }
 
-.logojumbo {
-    width: 20%;
-}
+    .logojumbo {
+        width: 20%;
+    }
 
-.btn.btn-buy {
-    background-color: orange;
-    color: white;
-    border-radius: 20px;
-}
+    .btn.btn-buy {
+        background-color: orange;
+        color: white;
+        border-radius: 20px;
+    }
 
 
 /* Returnal/Ratchet row */
@@ -77,12 +76,12 @@ nav {
     }
 
 
-   /* No Limits Section */
+/* No Limits Section */
 
-#no-limits {
-    text-align: center;
-    padding-top: 5%;
-}
+    #no-limits {
+        text-align: center;
+        padding-top: 5%;
+    }
 
 
 /* PS5 Console Section */
@@ -102,7 +101,7 @@ nav {
     }
 
     
-    /* PS5 Accessories Section */
+/* PS5 Accessories Section */
 
     #ps5row {
         justify-content: space-between;
@@ -168,117 +167,117 @@ nav {
 
 /* Jumbotron PS Plus */
 
-#psplus {
-    height: 400px;
-    background-color: gray;     
-    width: auto;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    flex-direction: row-reverse;
-    align-items: center;
-}
- 
-.imgpsp {
-    height: 400px;
-    padding-left: 5%;
-}
+    #psplus {
+        height: 400px;
+        background-color: gray;     
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+    .imgpsp {
+        height: 400px;
+        padding-left: 5%;
+    }
 
-.textpsp {
-    width: 50vh;  
-    margin-right: 20vh;
-}
+    .textpsp {
+        width: 50vh;  
+        margin-right: 20vh;
+    }
 
-.logopsp {
-    width: 100%;
-}
+    .logopsp {
+        width: 100%;
+    }
 
 /* Sezione Promo Store */
 
-/* 
-#nobg2 {
-    color: black;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-} 
-*/
+    /* 
+    #nobg2 {
+        color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+    } 
+    */
 
-/*
- #list {
-        justify-content: space-between; 
-    }
-*/
+    /*
+    #list {
+            justify-content: space-between; 
+        }
+    */
 
 
 /* Jumbotron Avengers */
 
-#avengers {
-    height: 400px;
-    background-color: #0E1B3E; 
-    width: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: center;
-}
- 
-.imgav {
-    height: 400px;
-    padding-left: 5%;
-}
+    #avengers {
+        height: 400px;
+        background-color: #0E1B3E; 
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+    .imgav {
+        height: 400px;
+        padding-left: 5%;
+    }
 
-.textav {
-    width:50vh;  
-    margin-right: 20vh;
-    color: white;
-}
+    .textav {
+        width:50vh;  
+        margin-right: 20vh;
+        color: white;
+    }
 
-.logopsn {
-    width: 100%;
-    padding-bottom: 2%;
-}
+    .logopsn {
+        width: 100%;
+        padding-bottom: 2%;
+    }
 
 /* Sezione Social */
 
-#nobg3 {
-    color: black;
+    #nobg3 {
+        color: black;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+    }
+
+    #follow-us {
+        padding-top: 5%;
+    }
+
+    #social {
+    justify-content: space-around;
     padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-}
+    }
 
-#follow-us {
-    padding-top: 5%;
-}
-
-#social {
-   justify-content: space-around;
-   padding-top: 5%;
-}
-
-.ret-list-img1 {
-    width: calc((100vh / 12) * 4);  
-}
+    .ret-list-img1 {
+        width: calc((100vh / 12) * 4);  
+    }
 
 /* Footer */
 
-footer {
-    height: 550px;
-    background-color: #0028A4;
-    color: white;
-    justify-content: space-between;
-    
-}
+    footer {
+        height: 550px;
+        background-color: #0028A4;
+        color: white;
+        justify-content: space-between;
+        
+    }
 
-#playlogo {
-    width: 10%;
-}
+    #playlogo {
+        width: 10%;
+    }
 
-ul {
-    list-style: none;
-    padding-top: 20%;
-}
+    ul {
+        list-style: none;
+        padding-top: 20%;
+    }
 
 
 
