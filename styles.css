@@ -5,6 +5,8 @@
     background-color: white;
 }
 
+/* Navbar */
+
 nav {
         
     color: black;
@@ -156,9 +158,10 @@ nav {
 
     #list {
         justify-content: space-between; 
+        padding-bottom: 5%;
     }
 
-   #card {
+   .card {
         border: 0px;
     }
 
@@ -207,25 +210,22 @@ nav {
     }
 */
 
-/*Banner2*/
+
+/* Jumbotron Avengers */
 
 #avengers {
-    height: 45vh;
-    background-color: #0E1B3E;
-       
+    height: 400px;
+    background-color: #0E1B3E; 
     width: auto;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     flex-direction: row-reverse;
     align-items: center;
 }
  
-
-
 .imgav {
-    height: 45vh;
-    margin-left: 10vh;
+    height: 400px;
+    padding-left: 5%;
 }
 
 .textav {
@@ -236,57 +236,63 @@ nav {
 
 .logopsn {
     width: 100%;
-    margin-bottom: 3vh;
+    padding-bottom: 2%;
 }
+
+/* Sezione Social */
 
 #nobg3 {
     color: black;
-    margin-top: 10vh;
-    
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
-   
 }
 
-#list3 {
-    display: flex;
-    
-}
-
-.card {
-    border: 0px;
+#follow-us {
+    padding-top: 5%;
 }
 
 #social {
-   display: flex;
    justify-content: space-around;
-   margin-bottom: 10vh;
+   padding-top: 5%;
 }
 
 .ret-list-img1 {
-    width: calc((100vh / 12) * 3);
-    
+    width: calc((100vh / 12) * 4);  
 }
 
+/* Footer */
+
 footer {
-    height: 65vh;
+    height: 550px;
     background-color: #0028A4;
     color: white;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%;
-    list-style: none;
+    justify-content: space-between;
+    
 }
 
 #playlogo {
-    width: 20vh;
-    
+    width: 10%;
 }
 
 ul {
     list-style: none;
-    margin-bottom: 10vh;
+    padding-top: 20%;
 }
 
-#psli {
-    margin-bottom: 3vh;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
